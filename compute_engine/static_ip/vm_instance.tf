@@ -10,7 +10,7 @@ resource "google_compute_instance" "web_server" {
     network = "default"
     access_config {
       network_tier = "PREMIUM"
-      nat_ip = google_compute_address.static.address
+      nat_ip       = google_compute_address.static.address
     }
   }
   metadata_startup_script = file("metadata_script.sh")

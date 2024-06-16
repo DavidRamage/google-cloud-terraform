@@ -5,3 +5,4 @@ through in Terraform.
 
 ## Directory Structure
 * `compute_engine` Files related to Compute Engine
+* `load_balancers` Files related to load balancers
